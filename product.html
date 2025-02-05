@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>product</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>  
-    <div class="container" style="background-color: aquamarine; margin:12px;">  
+    <div class="container" >  
         <div class="header">  
             <h1>لیست کارها</h1>  
         </div>  
         <div class="input-area">  
-            <input type="text" id="taskInput" placeholder="یک کار جدید اضافه کنید..." style="background-color: aqua;">  
+            <input type="text" id="taskInput" placeholder="یک کار جدید اضافه کنید..." >  
             <button onclick="addTask()">اضافه کردن</button>  
         </div>  
+        <div class="filter-area">  
+            <select id="filterSelect" onchange="filterTasks()">  
+                <option value="all">همه</option>  
+                <option value="completed">انجام شده</option>  
+                <option value="pending">انجام نشده</option>  
+            </select>  
+        </div>  
+        <div class="task-list">  
+            <ul id="taskList"></ul>  
+        </div>
         <div class="task-list">  
             <ul id="taskList"></ul>  
         </div>  
