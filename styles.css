@@ -115,7 +115,7 @@ li.completed {
 }  
 
 li button {  
-    background-color: #fdbec4; /* رنگ دکمه حذف */  
+    background-color: #e4939b; /* رنگ دکمه حذف */  
     border: none;  
     border-radius: 4px;  
     color: white;  
@@ -124,7 +124,7 @@ li button {
 }  
 
 li button:hover {  
-    background-color: #c82333; /* رنگ دکمه حذف در حالت هاور */  
+    background-color: #fda0a9; /* رنگ دکمه حذف در حالت هاور */  
 }  
 
 @media (max-width: 600px) {  
