@@ -124,7 +124,7 @@ li button {
 }  
 
 li button:hover {  
-    background-color: #c82333; /* رنگ دکمه حذف در حالت هاور */  
+    background-color: #fda0a9; /* رنگ دکمه حذف در حالت هاور */  
 }  
 
 @media (max-width: 600px) {  
