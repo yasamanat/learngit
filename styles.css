@@ -115,7 +115,7 @@ li.completed {
 }  
 
 li button {  
-    background-color: #dc3545; /* رنگ دکمه حذف */  
+    background-color: #fdbec4; /* رنگ دکمه حذف */  
     border: none;  
     border-radius: 4px;  
     color: white;  
